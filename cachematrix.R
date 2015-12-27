@@ -1,6 +1,6 @@
 ## Creates a list of functions and sets the inverse to Null. 
 ## Once the inverse is calculated by cacheSolve, it can be accessed by getInv
-## without redoing the calculation again
+## without redoing the calculation again. This is ti save calculation time.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
